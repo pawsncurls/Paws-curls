@@ -1,10 +1,10 @@
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) entry.target.classList.add("visible");
   });
 }, { threshold: 0.12 });
 
-document.querySelectorAll('section, .stat-card, .why-grid div, .service-grid article').forEach(el => {
-  el.classList.add('reveal');
+document.querySelectorAll("section, .logo-grid img, .dog-card-grid img, .why-points div").forEach((el) => {
+  el.classList.add("reveal");
   observer.observe(el);
 });

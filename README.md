@@ -1,18 +1,13 @@
-# Paws N Curls Website V2
+# Paws N Curls Canva Style Website
 
-Upload all files in this folder to your GitHub repository.
-
-Files:
+Upload these files to your GitHub repository root:
 - index.html
 - styles.css
 - script.js
 - CNAME
 - assets folder
 
-GitHub Pages should stay set to:
-- Source: Deploy from a branch
-- Branch: main
-- Folder: / root
+Then commit changes. GitHub Pages will publish automatically.
 
-Custom domain:
+Domain:
 www.pawsncurls.co.uk
