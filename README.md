@@ -1,4 +1,4 @@
-# Paws N Curls Final Canva-Style Website
+# Paws N Curls Updated Final Website
 
 Upload everything in this folder to your GitHub repository root:
 - index.html

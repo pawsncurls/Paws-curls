@@ -7,7 +7,6 @@
   --blue:#afd9ff;
   --cream:#f5eee7;
   --white:#fffdf8;
-  --sage:#c9cbbc;
 }
 
 *{box-sizing:border-box}
@@ -19,21 +18,20 @@ body{margin:0;background:var(--bg);color:var(--brown);font-family:Montserrat,Ari
 
 .hero{text-align:center;padding:35px 5% 45px}
 .title-img{width:min(980px,100%);display:block;margin:0 auto 25px}
-.intro{font-family:Cormorant Garamond,serif;font-size:clamp(1.35rem,2.8vw,2.05rem);font-weight:700;line-height:1.15;max-width:900px;margin:0 auto 55px}
+.intro{font-family:Cormorant Garamond,serif;font-size:clamp(1.35rem,2.8vw,2.05rem);font-weight:700;line-height:1.15;max-width:900px;margin:0 auto 55px;color:var(--brown)}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;max-width:1040px;margin:0 auto}
 .stats div{min-height:90px;display:grid;place-items:center}
 .stats strong,.stats span{display:block;font-family:Cormorant Garamond,serif;font-size:clamp(1.65rem,3.7vw,3rem);line-height:.95;font-weight:700;color:var(--brown)}
 
 .trusted{text-align:center;padding:45px 5% 60px}
-.line-title{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:26px;max-width:1120px;margin:0 auto}
+.line-title{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:26px;max-width:1120px;margin:0 auto 42px}
 .line-title span{height:2px;background:var(--brown);opacity:.7}
 .line-title h1{font-family:Playfair Display,serif;color:var(--brown);font-size:clamp(2.9rem,7vw,6.4rem);margin:0;text-shadow:5px 5px 0 rgba(255,255,255,.7);letter-spacing:.03em}
-.trusted h2,.dogs h2,.contact h2{font-family:Playfair Display,serif;color:var(--blue);font-size:clamp(3.5rem,12vw,9.5rem);line-height:.85;margin:35px 0;font-weight:800}
 .brands-grid{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .brands-grid img{width:100%;height:135px;object-fit:contain;background:rgba(255,255,255,.62);border-radius:24px;padding:18px;box-shadow:0 12px 28px rgba(81,48,51,.08)}
 
 .sophie{text-align:center;padding:45px 5% 45px}
-.sophie h2,.why h2{font-family:Playfair Display,serif;color:var(--brown);font-size:clamp(3rem,8vw,7rem);line-height:.9;margin:10px 0 35px;text-shadow:5px 5px 0 rgba(255,255,255,.7)}
+.sophie h2,.why h2,.connect h2{font-family:Playfair Display,serif;color:var(--brown);font-size:clamp(3rem,8vw,7rem);line-height:.9;margin:10px 0 35px;text-shadow:5px 5px 0 rgba(255,255,255,.7)}
 .sophie-layout{max-width:1250px;margin:0 auto;display:grid;grid-template-columns:.75fr 1.1fr .75fr;gap:24px;align-items:center}
 .bio{background:rgba(255,255,255,.2);border-radius:30px;padding:24px;font-family:Cormorant Garamond,serif;color:var(--deep);font-size:1.05rem;line-height:1.45}
 .bio p{margin:0 0 15px}
@@ -54,9 +52,9 @@ body{margin:0;background:var(--bg);color:var(--brown);font-family:Montserrat,Ari
 .dog-grid img{width:100%;border-radius:22px;box-shadow:0 20px 45px rgba(81,48,51,.16);transition:.25s ease}
 .dog-grid img:hover{transform:translateY(-6px);box-shadow:0 28px 65px rgba(81,48,51,.22)}
 
-.contact{text-align:center;padding:70px 5% 85px;background:rgba(255,255,255,.24)}
-.contact h2{margin-bottom:20px}
-.contact p{color:var(--deep);font-size:1.15rem}
+.connect{text-align:center;padding:70px 5% 85px;background:rgba(255,255,255,.24)}
+.connect h2{margin-bottom:20px;color:var(--brown)}
+.connect p{color:var(--deep);font-size:1.15rem}
 .contact-buttons{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:25px 0}
 .contact-buttons a{background:var(--deep);color:white;text-decoration:none;font-weight:800;padding:14px 22px;border-radius:999px}
 .contact-buttons a:nth-child(2){background:var(--cream);color:var(--deep)}
