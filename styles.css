@@ -81,7 +81,7 @@ footer{text-align:center;color:var(--deep);padding:25px}
 }
 
 
-/* Final polish */
+/* FIXED FINAL POLISH */
 .stat-box{
   min-height:125px;
   display:grid;
@@ -97,8 +97,12 @@ footer{text-align:center;color:var(--deep);padding:25px}
   transform:translateY(-5px);
   box-shadow:0 18px 38px rgba(81,48,51,.13);
 }
-.contact h2,
-.dogs h2{
+.dogs h2,
+.contact h2{
+  font-family:Playfair Display,serif;
   color:var(--brown) !important;
+  font-size:clamp(3rem,7vw,6rem) !important;
+  line-height:.9;
+  margin:10px 0 35px;
   text-shadow:5px 5px 0 rgba(255,255,255,.7);
 }
