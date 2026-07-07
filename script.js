@@ -4,7 +4,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 
-document.querySelectorAll("section, .brands-grid img, .dog-grid img, .why-grid div, .stat-box").forEach((el) => {
+document.querySelectorAll("section, .brands-grid img, .dog-grid img, .why-grid div").forEach((el) => {
   el.classList.add("reveal");
   observer.observe(el);
 });
