@@ -1,4 +1,4 @@
-# Paws N Curls Updated Final Website
+# Paws N Curls V3 Final Website
 
 Upload everything in this folder to your GitHub repository root:
 - index.html
