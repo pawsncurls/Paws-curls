@@ -1,15 +1,18 @@
-# Paws N Curls Website
+# Paws N Curls Website V2
 
-Upload these files to GitHub, then enable GitHub Pages.
+Upload all files in this folder to your GitHub repository.
 
-## Files
+Files:
 - index.html
 - styles.css
 - script.js
 - CNAME
+- assets folder
 
-## GitHub Pages
-Settings > Pages > Deploy from branch > main > /root > Save.
+GitHub Pages should stay set to:
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / root
 
-## Domain
-CNAME file uses: www.pawsncurls.co.uk
+Custom domain:
+www.pawsncurls.co.uk
