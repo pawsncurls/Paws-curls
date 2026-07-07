@@ -1,6 +1,6 @@
-# Paws N Curls Canva Style Website
+# Paws N Curls Final Canva-Style Website
 
-Upload these files to your GitHub repository root:
+Upload everything in this folder to your GitHub repository root:
 - index.html
 - styles.css
 - script.js
@@ -8,6 +8,3 @@ Upload these files to your GitHub repository root:
 - assets folder
 
 Then commit changes. GitHub Pages will publish automatically.
-
-Domain:
-www.pawsncurls.co.uk
