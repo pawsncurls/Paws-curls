@@ -136,3 +136,23 @@ footer{text-align:center;color:var(--deep);padding:25px}
   .brands-grid{grid-template-columns:1fr;}
   .brands-grid img{height:115px;}
 }
+
+
+/* Version 1.0 polish changes */
+.brands-grid .brand-hills{
+  transform:scale(1.22);
+}
+.brands-grid .brand-hills:hover{
+  transform:scale(1.26);
+}
+.sophie-headshot{
+  display:block;
+  width:100%;
+  margin-bottom:18px;
+  border-radius:24px;
+  box-shadow:0 16px 45px rgba(81,48,51,.15);
+  object-fit:cover;
+}
+.memory-left img + img{
+  margin-top:4px;
+}
