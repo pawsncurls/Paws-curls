@@ -106,3 +106,33 @@ footer{text-align:center;color:var(--deep);padding:25px}
   margin:10px 0 35px;
   text-shadow:5px 5px 0 rgba(255,255,255,.7);
 }
+
+
+/* Clean 14-brand trusted by wall */
+.brands-grid{
+  max-width:1180px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+.brands-grid img{
+  width:100%;
+  height:135px;
+  object-fit:contain;
+  background:rgba(255,255,255,.62);
+  border-radius:24px;
+  padding:22px;
+  box-shadow:0 12px 28px rgba(81,48,51,.08);
+}
+.brands-grid img:hover{
+  transform:scale(1.03);
+  filter:brightness(1.04);
+}
+@media(max-width:950px){
+  .brands-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:540px){
+  .brands-grid{grid-template-columns:1fr;}
+  .brands-grid img{height:115px;}
+}
