@@ -24,8 +24,8 @@
     .ugc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,320px));justify-content:center;gap:24px;max-width:1100px;margin:0 auto}
     .ugc-card{background:#fff;border:1px solid #ead8de;border-radius:24px;padding:12px;box-shadow:0 18px 45px rgba(91,60,70,.12)}
     .ugc-video{position:relative;width:100%;aspect-ratio:9/16;overflow:hidden;border-radius:16px;background:#f2e8eb}
-    .ugc-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-    .brand-badge{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(255,255,255,.94);border-radius:14px;padding:8px 10px;box-shadow:0 6px 18px rgba(0,0,0,.14);display:flex;align-items:center;justify-content:center;max-width:108px;max-height:62px;pointer-events:none}
+    .ugc-video video{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover;background:#000}
+    .brand-badge{position:absolute;right:12px;bottom:54px;z-index:3;background:rgba(255,255,255,.94);border-radius:14px;padding:8px 10px;box-shadow:0 6px 18px rgba(0,0,0,.14);display:flex;align-items:center;justify-content:center;max-width:108px;max-height:62px;pointer-events:none}
     .brand-badge img{display:block;max-width:88px;max-height:44px;width:auto;height:auto;object-fit:contain}
     .ugc-card p{margin:14px 6px 6px;font-weight:600;color:#5b3c46}
     @media (max-width:700px){.social-club,.ugc-work{padding:56px 14px}.tally-embed-wrap{border-radius:16px;padding:4px}.site-nav nav a[href="#social-club"]{display:inline-block}.ugc-grid{grid-template-columns:minmax(0,320px)}}
@@ -48,7 +48,6 @@
     <section class="hero">
       <img src="assets/title.png" alt="Paws N Curls title collage" class="title-img">
       <p class="intro">Helping pet brands build trust through authentic content, professional pet expertise and real-life storytelling.</p>
-
       <div class="stats">
         <div class="stat-box"><strong>16K+</strong><span>Followers</span></div>
         <div class="stat-box"><strong>UGC</strong><span>Videos</span></div>
@@ -58,74 +57,31 @@
     </section>
 
     <section id="trusted" class="trusted">
-      <div class="line-title">
-        <span></span>
-        <h1>TRUSTED BY</h1>
-        <span></span>
-      </div>
-
+      <div class="line-title"><span></span><h1>TRUSTED BY</h1><span></span></div>
       <div class="brands-grid">
-        <img src="assets/hills.png" alt="Hill's logo">
-        <img src="assets/progroom.jpeg" alt="ProGroom logo">
-        <img src="assets/costa.png" alt="Costa Coffee logo">
-        <img src="assets/starbucks.png" alt="Starbucks logo">
-        <img src="assets/wilsons.jpeg" alt="Wilsons logo">
-        <img src="assets/goodboy.png" alt="Good Boy logo">
-        <img src="assets/beaphar.png" alt="Beaphar logo">
-        <img src="assets/ralphies.jpeg" alt="Ralphie's Natural Treats logo">
-        <img src="assets/yumove.png" alt="YuMOVE logo">
-        <img src="assets/yumove-long-life.png" alt="YuMOVE Long Life logo">
-        <img src="assets/denzels.png" alt="Denzel's logo">
+        <img src="assets/hills.png" alt="Hill's logo"><img src="assets/progroom.jpeg" alt="ProGroom logo"><img src="assets/costa.png" alt="Costa Coffee logo"><img src="assets/starbucks.png" alt="Starbucks logo"><img src="assets/wilsons.jpeg" alt="Wilsons logo"><img src="assets/goodboy.png" alt="Good Boy logo"><img src="assets/beaphar.png" alt="Beaphar logo"><img src="assets/ralphies.jpeg" alt="Ralphie's Natural Treats logo"><img src="assets/yumove.png" alt="YuMOVE logo"><img src="assets/yumove-long-life.png" alt="YuMOVE Long Life logo"><img src="assets/denzels.png" alt="Denzel's logo">
       </div>
     </section>
 
     <section id="sophie" class="sophie">
       <h2>MEET SOPHIE</h2>
-
       <div class="sophie-layout">
-        <div class="memory memory-left">
-          <img src="assets/tess-first-day.jpeg" alt="Sophie with Tess on first day of school">
-          <div class="arrow arrow-left">↙</div>
-          <p>Tess and I on my first day of school</p>
-        </div>
-
+        <div class="memory memory-left"><img src="assets/tess-first-day.jpeg" alt="Sophie with Tess on first day of school"><div class="arrow arrow-left">↙</div><p>Tess and I on my first day of school</p></div>
         <div class="bio">
           <p>Hi! My name is Sophie. I am a 20-year-old pet content creator from Bedfordshire, UK. Together with my partner Jasper we are currently striving to buy our first house and build our dream careers, with the help of our beloved animals.</p>
-
           <p>Living with mild cerebral palsy has made me very determined and resilient. Throughout my life animals have been my source of comfort and confidence. My very first family dog, Tess, came into my life at the age of three, and I considered her and my guinea pigs as my best friends. The experiences of those days gave me an inseparable connection with animals and helped me to build my career.</p>
-
           <p>I started my pet career at the age of 9, volunteering in a dog grooming salon. I have accumulated many years of experience by working in dog kennels, dog walking, pet sitting and rehabilitation of rescued dogs, which needed patience and understanding.</p>
-
           <p>At the moment, I manage to combine my experience with my passion to produce high-quality and engaging user-generated content together with my three dogs Alfie, Nellie and Bramble.</p>
         </div>
-
-        <div class="memory memory-right">
-          <img src="assets/tess-last-pic.jpeg" alt="Sophie with Tess in their last picture together">
-          <div class="arrow arrow-right">↘</div>
-          <p>Our last picture together</p>
-        </div>
+        <div class="memory memory-right"><img src="assets/tess-last-pic.jpeg" alt="Sophie with Tess in their last picture together"><div class="arrow arrow-right">↘</div><p>Our last picture together</p></div>
       </div>
     </section>
 
-    <section class="why">
-      <h2>Why brands work with me</h2>
-      <div class="why-grid">
-        <div>Experienced<br>Pet Owner</div>
-        <div>Qualified<br>Dog Groomer</div>
-        <div>Dog Walking<br>Business Owner</div>
-        <div>Authentic<br>Storytelling</div>
-        <div>High Quality<br>Content</div>
-        <div>Engaged<br>UK Audience</div>
-      </div>
-    </section>
+    <section class="why"><h2>Why brands work with me</h2><div class="why-grid"><div>Experienced<br>Pet Owner</div><div>Qualified<br>Dog Groomer</div><div>Dog Walking<br>Business Owner</div><div>Authentic<br>Storytelling</div><div>High Quality<br>Content</div><div>Engaged<br>UK Audience</div></div></section>
 
     <section id="dogs" class="dogs">
       <h2 style="font-family:Playfair Display,serif;color:#8d5b67;font-size:clamp(3rem,7vw,6rem);text-shadow:5px 5px 0 rgba(255,255,255,.7);margin-bottom:30px;">MEET THE DOGS</h2>
-      <div class="dog-grid">
-        <img src="assets/alfie-profile.jpeg" alt="Alfie profile">
-        <img src="assets/nellie-profile.jpeg" alt="Nellie profile">
-        <img src="assets/bramble-profile.jpeg" alt="Bramble profile">
-      </div>
+      <div class="dog-grid"><img src="assets/alfie-profile.jpeg" alt="Alfie profile"><img src="assets/nellie-profile.jpeg" alt="Nellie profile"><img src="assets/bramble-profile.jpeg" alt="Bramble profile"></div>
     </section>
 
     <section id="ugc-work" class="ugc-work">
@@ -135,14 +91,14 @@
       <div class="ugc-grid">
         <article class="ugc-card">
           <div class="ugc-video">
-            <iframe src="https://drive.google.com/file/d/1qBvQS9hlSpM2WEALHkCathsmsA4Leiqc/preview" allow="autoplay; fullscreen" loading="lazy" title="Wilsons Pet Food UGC video"></iframe>
+            <video controls playsinline preload="metadata" title="Wilsons Pet Food UGC video"><source src="wilsons-ugc-25mb.mp4" type="video/mp4">Your browser does not support HTML video.</video>
             <div class="brand-badge"><img src="assets/wilsons.jpeg" alt="Wilsons Pet Food logo"></div>
           </div>
           <p>Wilsons Pet Food</p>
         </article>
         <article class="ugc-card">
           <div class="ugc-video">
-            <iframe src="https://drive.google.com/file/d/1ALrAHM_PLf0hoFHaK7Uihni-xwuOgvr3/preview" allow="autoplay; fullscreen" loading="lazy" title="NAW dog treats UGC video"></iframe>
+            <video controls playsinline preload="metadata" title="NAW Dog Treats UGC video"><source src="NAW%20UGC.MP4" type="video/mp4">Your browser does not support HTML video.</video>
             <div class="brand-badge"><img src="https://thedieline.com/wp-content/uploads/2023/04/1f716561-4686-4da3-b826-80334d02e81c_0_Naw_CS_Logo.jpg" alt="NAW dog treats logo"></div>
           </div>
           <p>NAW Dog Treats</p>
@@ -151,38 +107,11 @@
     </section>
 
     <section id="social-club" class="social-club">
-      <div class="social-club-intro">
-        <p class="eyebrow">PAWS N CURLS SOCIAL CLUB</p>
-        <h2>Join the Club</h2>
-        <p class="social-lead">A welcoming community where dogs can make friends and owners can too.</p>
-        <p>Complete the form below to request a place. I personally review every application, including your dog’s confidence, fears and individual needs, so I can choose suitable groups and locations that help every dog feel as comfortable as possible.</p>
-        <p><strong>Please look out for an email from me.</strong> I’ll be in contact about your space and send the event details once your booking has been reviewed.</p>
-        <p class="privacy-note">Promotional emails are optional. Only tick the consent box in the form if you would like occasional Paws N Curls Social Club news and future event updates. You can unsubscribe at any time.</p>
-      </div>
-
-      <div class="tally-embed-wrap">
-        <iframe
-          data-tally-src="https://tally.so/embed/vGVMYA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="lazy"
-          width="100%"
-          height="900"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          title="Paws N Curls Social Club sign-up form">
-        </iframe>
-      </div>
+      <div class="social-club-intro"><p class="eyebrow">PAWS N CURLS SOCIAL CLUB</p><h2>Join the Club</h2><p class="social-lead">A welcoming community where dogs can make friends and owners can too.</p><p>Complete the form below to request a place. I personally review every application, including your dog’s confidence, fears and individual needs, so I can choose suitable groups and locations that help every dog feel as comfortable as possible.</p><p><strong>Please look out for an email from me.</strong> I’ll be in contact about your space and send the event details once your booking has been reviewed.</p><p class="privacy-note">Promotional emails are optional. Only tick the consent box in the form if you would like occasional Paws N Curls Social Club news and future event updates. You can unsubscribe at any time.</p></div>
+      <div class="tally-embed-wrap"><iframe data-tally-src="https://tally.so/embed/vGVMYA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0" title="Paws N Curls Social Club sign-up form"></iframe></div>
     </section>
 
-    <section id="connect" class="connect">
-      <h2>Let's Connect</h2>
-      <p>Let’s create warm, authentic content that pet owners trust.</p>
-      <div class="contact-buttons">
-        <a href="mailto:hello@pawsncurls.co.uk">hello@pawsncurls.co.uk</a>
-        <a href="https://www.instagram.com/pawsncurls" target="_blank" rel="noreferrer">@pawsncurls</a>
-      </div>
-      <p class="small">Bedfordshire, UK</p>
-    </section>
+    <section id="connect" class="connect"><h2>Let's Connect</h2><p>Let’s create warm, authentic content that pet owners trust.</p><div class="contact-buttons"><a href="mailto:hello@pawsncurls.co.uk">hello@pawsncurls.co.uk</a><a href="https://www.instagram.com/pawsncurls" target="_blank" rel="noreferrer">@pawsncurls</a></div><p class="small">Bedfordshire, UK</p></section>
   </main>
 
   <footer>© Paws N Curls</footer>
